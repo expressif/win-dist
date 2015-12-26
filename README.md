@@ -20,6 +20,8 @@ Windows VC11 libraries :
 | PHP      | Thread Safe | Not Thread Safe |
 |----------|-------------|-----------------|
 | 5.6      | [download](https://github.com/expressif/win-dist/archive/php-5.6-ts-x64.zip) | [download](https://github.com/expressif/win-dist/archive/php-5.6-nts-x64.zip)
+| 7.0      | [download](https://github.com/expressif/win-dist/archive/php-7.0-ts-x64.zip) | x
+
 
 ### x86
 
