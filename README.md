@@ -7,9 +7,7 @@ Windows VC11 libraries :
 | Library       | Version  |
 |---------------|---------:|
 | Libevent      |   2.0.22 |
-| Pecl Libevent |    0.1.0 |
-| Pecl Propro   |    1.0.0 |
-| Pecl Raphf    |    1.0.4 |
+| Pecl Libevent |    0.1.x |
 
 ---
 
@@ -19,14 +17,11 @@ Windows VC11 libraries :
 
 | PHP      | Thread Safe | Not Thread Safe |
 |----------|-------------|-----------------|
-| 5.6      | [download](https://github.com/expressif/win-dist/archive/php-5.6-ts-x64.zip) | [download](https://github.com/expressif/win-dist/archive/php-5.6-nts-x64.zip)
+| 7.0      | [download](https://github.com/expressif/win-dist/archive/php-7.0-ts-x64.zip) | x
 
 ### x86
 
-| PHP      | Thread Safe | Not Thread Safe |
-|----------|-------------|-----------------|
-| 5.6      | [download](https://github.com/expressif/win-dist/archive/php-5.6-ts-x86.zip) | [download](https://github.com/expressif/win-dist/archive/php-5.6-nts-x86.zip)
-
+x
 
 ---
 
@@ -36,7 +31,4 @@ Edit your php.ini, adding the modules (order matters) :
 
 ```ini
 extension=php_libevent.dll
-extension=php_propro.dll
-extension=php_raphf.dll
-extension=php_http.dll
 ```
